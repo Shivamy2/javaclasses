@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
-class Demo {
+class Demo2 {
     public static void main(String args[]) {
         Scanner sn = new Scanner(System.in);
         System.out.println("Enter your age in integer\n");
