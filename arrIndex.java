@@ -2,7 +2,7 @@
 // import java.util.Scanner;
 
 // import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
-public class arrEven {
+public class arrIndex {
     public static void main(String[] args) {
         // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter size of the array");
@@ -13,10 +13,10 @@ public class arrEven {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
             // int arr[i] = sc.nextInt();
-            if (arr[i] % 2 == 0) {
+            if (i % 2 == 0) {
                 sum = arr[i] + sum;
             }
         }
-        System.out.println("Sum of Even terms in array is: " + sum);
+        System.out.println("\n\nSum of Even index terms in an array is: " + sum);
     }
 }
