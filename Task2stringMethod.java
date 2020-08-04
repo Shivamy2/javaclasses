@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 // print like this:
 // input: Hello World
-// output: H, e, l, l, o,  , W, o, r, l, d
+// ? output: H, e, l, l, o,  , W, o, r, l, d
 import java.util.Scanner;
 public class Task2stringMethod {
     public static void main(String[] args) {
