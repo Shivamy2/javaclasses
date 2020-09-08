@@ -9,15 +9,21 @@ public class Employee {
    int EmployeeExp;
    int EmployeeId;
 
-    public Employee(String FirstName, String LastName,String Email,int Salary,int EmployeeId,int EmployeeExp,long MobileNo) {
-        this.FirstName = FirstName;
-        this.LastName = LastName;
-        this.Email = Email;
-        this.Salary = Salary;
-        this.EmployeeId = EmployeeId;
-        this.EmployeeExp = EmployeeExp;
-        this.MobileNo = MobileNo;
-    }
+   public int getSalary() {
+       return Salary;
+   }
+   public int getEmployeeExp() {
+       return EmployeeExp;
+   }
+    public Employee({
+        this.FirstName,
+        this.LastName,
+        this.Email,
+        this.Salary,
+        this.EmployeeId,
+        this.EmployeeExp,
+        this.MobileNo
+    });
     public void Display() {
         System.out.println(FirstName +"\n" + LastName + "\n" + Email + "\n" + Salary + "\n"+ EmployeeExp +"\n" + EmployeeId +"\n" + MobileNo);
     }
